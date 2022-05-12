@@ -1,0 +1,83 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.lewy{
+    background-color: maroon;
+    color: white;
+    width: 30%;
+    height: 600px;
+    float: left;
+}
+.prawy{
+    background-color: maroon;
+    color: white;
+    width: 70%;
+    height: 600px;
+    float: left;
+}
+footer{
+    background-color: dimgray;
+    color: white;
+    clear: both;
+}
+p{
+    padding: 10px;
+    clear: both;
+}
+.indigo{
+    background-color: Indigo;
+    color: white;
+    width: 70%;
+    height: 600px;
+    float: left;
+}
+.steelBlue{
+    background-color: steelBlue;
+    color: white;
+    width: 70%;
+    height: 600px;
+    float: left;
+}
+.olive{
+    background-color: olive;
+    color: white;
+    width: 70%;
+    height: 600px;
+    float: left;
+}
+.indig{
+    background-color: Indigo;
+}
+.steel{
+    background-color: steelblue;
+}
+.oliv{
+    background-color: olive;
+}
+
+img{
+    width: 300px;
+    height: auto;
+    float: left;
+    padding: 10px;
+    border: solid 1px white;
+}
+ul{
+    float: left;
+}
+.bor{
+   border: solid 0px white; 
+}
+.uldysc{
+    list-style-type: circle;
+}
+.ulqw{
+    list-style-type: square;
+}
+.ulokr{
+    list-style-type: disc;
+}
+
+.tan{
+    color: tan;
+}

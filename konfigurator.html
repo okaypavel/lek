@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Style w JavaScript</title>
+    <link rel="stylesheet" href="styl6.css" />
+  </head>
+  <body>
+    <section class="lewy">
+      <h1>Podaj kolor tła</h1>
+      <br />
+      <button class="indig" onclick="indigo()">Indigo</button>
+      <button class="steel" onclick="steelBlue()">SteelBlue</button>
+      <button class="oliv" onclick="olive()">Olive</button>
+      <p>Podaj kolor czcionki</p>
+      <select name="" id="sel" onchange="ten()">
+        <option>White</option>
+        <option>Tan</option>
+        <option>Bisque</option>
+        <option>Plum</option>
+      </select>
+      <p>Podaj rozmiar czcionki w procentach, np 200%</p>
+      <input
+        type="text"
+        min="0"
+        max="200"
+        name=""
+        value="100%"
+        onchange="font()"
+        id="inpfont"
+      />
+      <p>Czy rysunek ma mieć ramkę?</p>
+      <input
+        type="checkbox"
+        name=""
+        id="bor"
+        onchange="ramka()"
+        checked="true"
+      />
+      Rysuj ramke
+      <p>Jaki jest typ punktora listy?</p>
+      <input type="radio" name="typ" id="" checked="true" onclick="dys()" />
+      Dysk
+      <br />
+      <input type="radio" name="typ" id="" onclick="kwa()" />
+      Kwadrat
+      <br />
+      <input type="radio" name="typ" id="" onclick="okr()" /> Okrąg
+    </section>
+    <section class="prawy" id="prawy">
+      <img src="./R.jpg" alt="" id="imgp" />
+      <ul id="ulo">
+        <li>element 1</li>
+        <li>element 2</li>
+        <li>element 3</li>
+      </ul>
+      <p id="pprawy">Lorem ipsum dolor sit amet.</p>
+    </section>
+    <footer>autor 22222222222</footer>
+    <script src="main.js"></script>
+  </body>
+</html>
